@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+/* brand colors */
+/*brand fonts*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+body {
+  background-color: rgb(233, 235, 234);
+}
+
+h1, h2, h3, h4, p {
+  font-family: Poppins;
+}
+
+::-moz-selection {
+  /* Change highlight background color*/
+  background: rgb(108, 108, 173);
+  /* Change highlight text color */
+  color: rgb(233, 235, 234);
+}
+
+::selection {
+  /* Change highlight background color*/
+  background: rgb(108, 108, 173);
+  /* Change highlight text color */
+  color: rgb(233, 235, 234);
+}
+
+header .icon-bar {
+  background: rgb(0, 81, 194);
+}
+header .navbar {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  background-color: rgb(233, 235, 234);
+}
+header .navbar .navbar-brand {
+  padding: 0;
+}
+header .navbar a {
+  color: rgb(0, 81, 194);
+}
+
+/*home banner*/
+.banner {
+  position: relative;
+  overflow: visible;
+  max-width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.banner img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/*home box info*/
+.icon-boxes {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.icon-box {
+  padding: 50px 30px;
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(28, 28, 28);
+  box-shadow: 0 0 10px 0 rgb(28, 28, 28);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+.icon-box .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: rgb(108, 143, 173);
+}
+.icon-box .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+  color: rgb(233, 235, 234);
+}
+.icon-box:hover {
+  transform: scale(1.08);
+}
+.icon-box:hover .title {
+  color: rgb(108, 143, 173);
+}
+
+div.container h1.lh-base {
+  font-family: "DM Serif Display";
+  padding: 40px;
+  text-align: center;
+}
+
+.card {
+  margin: 60px;
+}
+
+div.container h1 {
+  padding-top: 150px;
+  padding-bottom: 40px;
+}
+
+button.btn {
+  background-color: rgb(108, 143, 173);
+  color: rgb(233, 235, 234);
+}
+button.btn:hover {
+  background-color: rgb(0, 81, 194);
+  color: rgb(233, 235, 234);
+}/*# sourceMappingURL=style.css.map */

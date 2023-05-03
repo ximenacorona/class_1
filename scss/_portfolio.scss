@@ -1,3 +1,16 @@
 .card {
     margin: 60px;
 }
+
+.card-link {
+    text-decoration: none; /* remove underline */
+    color: pink; /* change link color */
+    font-size: 1em; /* set default font size */
+    transition: font-size 0.2s; /* add transition effect to font size */
+}
+
+.card-link:hover {
+    text-decoration: none;
+    color: $brand-white; /* change link color when hovered over */
+    font-size: 2.2em; /* increase font size when hovered over */
+}
