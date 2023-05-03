@@ -1,0 +1,18 @@
+
+header {
+    
+    .icon-bar {
+        background: $brand-blue;
+    }
+
+    .navbar {
+        padding-top: 30px;
+        padding-bottom: 25px;
+        background-color: $brand-white;
+        
+        .navbar-brand {
+        padding: 0;
+        }
+        
+    }
+}
