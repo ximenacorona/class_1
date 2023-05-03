@@ -19,7 +19,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <!--my styles-->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 <body>
 <!--encabezado--> 
     <header>
@@ -50,27 +50,34 @@
 
     <main>
         <div class="container">
-            <h1>
+            <h1 class="text-center">
                 Let's Chat!
             </h1>
-            <section class="container">
-                <form class="row g-3">
-                    <div class="row m-3">
-                        <div class="col">
-                            <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+                <form>
+                    <div class="container row g-3">
+                        <div class="row m-3">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+                            </div>
+                            <div class="col">
+                                <input type="email" class="form-control" placeholder="Email" aria-label="Email">
+                            </div>
                         </div>
-                        <div class="col">
-                            <input type="email" class="form-control" placeholder="Email" aria-label="Email">
+                        <div class="row m-3">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Comments" aria-label="Comments"
+                                for="floatingTextarea2">
+                            </div>
                         </div>
-                    </div>
-                    <div class="row m-3">
-                        <div class="col">
-                            <input type="text" class="form-control" placeholder="Comments" aria-label="Comments"
-                            for="floatingTextarea2">
+                        <div class="row m-3">
+                            <div class="col d-flex justify-content-center">
+                                <div>
+                                    <button type="submit" class="btn">Submit</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </form>
-            </section>
         </div>
     </main>   
 
