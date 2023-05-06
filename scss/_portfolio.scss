@@ -1,5 +1,5 @@
 .card {
-    margin: 60px;
+    margin: 100px;
 }
 
 .card-link {
@@ -16,6 +16,16 @@
         text-decoration: none;
         color: $brand-purple; /* change link color when hovered over */
         mix-blend-mode:difference;
-        font-size: 3.8em; /* increase font size when hovered over */
+        font-size: 4em; /* increase font size when hovered over */
+    }
+}
+
+.modal-content {
+    max-width: 90%;
+    margin: auto;
+    border: 0;
+
+    .modal-body{
+        padding: 0;
     }
 }

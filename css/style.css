@@ -99,7 +99,7 @@ div.container h1.lh-base {
 }
 
 .card {
-  margin: 60px;
+  margin: 100px;
 }
 
 .card-link {
@@ -116,7 +116,16 @@ div.container h1.lh-base {
   text-decoration: none;
   color: rgb(108, 108, 173); /* change link color when hovered over */
   mix-blend-mode: difference;
-  font-size: 3.8em; /* increase font size when hovered over */
+  font-size: 4em; /* increase font size when hovered over */
+}
+
+.modal-content {
+  max-width: 90%;
+  margin: auto;
+  border: 0;
+}
+.modal-content .modal-body {
+  padding: 0;
 }
 
 div.container h1 {
